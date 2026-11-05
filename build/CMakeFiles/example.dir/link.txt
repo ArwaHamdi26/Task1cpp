@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/example.dir/examples/main.cpp.o -o example  libmyconsole.a 

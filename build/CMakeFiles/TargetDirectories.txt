@@ -1,0 +1,4 @@
+/home/arwa/Desktop/Day3/build/CMakeFiles/myconsole.dir
+/home/arwa/Desktop/Day3/build/CMakeFiles/example.dir
+/home/arwa/Desktop/Day3/build/CMakeFiles/edit_cache.dir
+/home/arwa/Desktop/Day3/build/CMakeFiles/rebuild_cache.dir
