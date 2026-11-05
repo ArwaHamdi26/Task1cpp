@@ -1,7 +1,10 @@
+#ifndef MYCONSOLE_HPP
+#define MYCONSOLE_HPP
+
 #include <iostream>
 #include <string>
 using namespace std;
-
+namespace myconsole {
 // Ansi color code values
 enum class AnsiColor : int {
   Black = 30,
@@ -25,3 +28,6 @@ enum class AnsiColor : int {
 
 void setColor(AnsiColor color);
 void CursorPosition(int y, int x, string text);
+bool initialize();
+}  // namespace myconsole
+#endif

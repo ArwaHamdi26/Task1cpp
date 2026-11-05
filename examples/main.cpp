@@ -3,12 +3,13 @@
 #include "../include/myconsole.hpp"
 using namespace std;
 int main() {
-  setColor(AnsiColor::Green);
-  CursorPosition(5, 100, "Main Menu");
-  setColor(AnsiColor::Reset);
-  CursorPosition(7, 100, "Start");
-  setColor(AnsiColor::Red);
-  CursorPosition(9, 100, "Exit");
-  setColor(AnsiColor::Reset);
+  myconsole::initialize();
+  myconsole::setColor(myconsole::AnsiColor::Green);
+  myconsole::CursorPosition(5, 30, "Main Menu");
+  myconsole::setColor(myconsole::AnsiColor::Reset);
+  myconsole::CursorPosition(7, 30, "Start");
+  myconsole::setColor(myconsole::AnsiColor::Red);
+  myconsole::CursorPosition(9, 30, "Exit");
+  myconsole::setColor(myconsole::AnsiColor::Reset);
   return 0;
 }

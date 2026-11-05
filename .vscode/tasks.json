@@ -34,7 +34,7 @@
                 "bash",
                 "-c",
                 // "g++ '${file}' -o '${fileDirname}/${fileBasenameNoExtension}' && '${fileDirname}/${fileBasenameNoExtension}'; echo; read -p 'Press Enter to close...'"
-                "${workspaceFolder}/main $$ echo ''; read -p 'Press Enter to close...'"
+                "${workspaceFolder}/app $$ echo ''; read -p 'Press Enter to close...'"
             ],
             "problemMatcher": [
                 "$gcc"
